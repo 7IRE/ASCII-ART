@@ -1,5 +1,8 @@
 # ASCII ART 
-This project allows you to generate C code for ASCII art using **24-bit BMP format** images. Transform your images into a fun ASCII representation effortlessly!
+- This project allows you to generate C code for ASCII art using **24-bit BMP format** images. Transform your images into a fun ASCII representation effortlessly!
+
+- The BMP format is converted into equivalent functional block which can be copied and used in other C/C++ programs without using additional libraries .
+
 
 ---
 ## Features
