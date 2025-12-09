@@ -3,6 +3,9 @@
 
 - The BMP format is converted into equivalent functional block which can be copied and used in other C/C++ programs without using additional libraries .
 
+  
+![WhatsApp Image 2025-12-09 at 19 25 04](https://github.com/user-attachments/assets/25947b22-e0b3-4bfc-b482-0c43884f2edc)
+
 
 ---
 ## Features
