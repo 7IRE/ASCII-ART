@@ -46,6 +46,20 @@ This repository includes:
 - The generated C code.
 - A compiled version of the executable.
 
+
+---
+
+## Things to Keep in Mind When Writing Programs with This Generator
+
+- 📐 **Pixel Ratio**: Each pixel is represented as `2 x 1`.  
+  For example, if you have a `32 x 32` image, the next image should be placed at `row = 0`, `column = 64`.
+
+- 🎯 **Coordinates Reference**: The coordinates you provide to the function represent the **upper-left corner** of the image.
+
+- 🖥️ **Terminal Boundaries**: Always provide coordinates that fit within the terminal view.  
+  Placing images outside the visible area may cause issues.  
+  You can resize the terminal using **CTRL + Plus (+)** and **CTRL + Minus (-)**.
+
 ---
 ## Credits
 
