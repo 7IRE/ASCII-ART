@@ -57,7 +57,7 @@ void RGPS(const char *filename) {
         for (int j = 0; j < width; j++) {
             fprintf(file,"\\033[48;2;%d;%d;%dm  ", pixels[i][j].red, pixels[i][j].green, pixels[i][j].blue);
         }
-        fprintf(file,"\");  printf(\"\\033[%%d;%%dH\\033[0m\",x+%d,y); \n",i);
+        fprintf(file,"\");  printf(\"\\033[%%d;%%dH\\033[0m\",x+%d,y); \n",i+1);
         // for (int j = 0; j < width; j++) {
         //    fprintf(file,"\\033[D\\033[D"); 
         // }
